@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Филин – О проекте</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="Логотип Филин" style="height: 40px; width: auto; vertical-align: middle; margin-right: 10px;">
+            <a href="index.html">Филин</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="journal.html">Журнал</a></li>
+            <li><a href="resources.html">Дополнительно</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-page">
+        <h1>О проекте «Филин»</h1>
+        
+        <!-- ЦЕЛИ -->
+        <h2 style="color: black; margin-top: 1.5rem;">Цели системы</h2>
+        <ul style="margin-left: 1.5rem; line-height: 1.5;">
+            <li>Сократить время поиска научного руководителя с 2–3 недель до нескольких дней</li>
+            <li>Исключить неподходящие заявки — автоматическая фильтрация по кафедре/направлению</li>
+            <li>Обеспечить прозрачное взаимодействие студента и преподавателя после подтверждённой заявки</li>
+            <li>Сформировать доверительный рейтинг преподавателей на основе оценок ВКР и отзывов студентов</li>
+        </ul>
+
+        <!-- РОЛИ и структура -->
+        <h2 style="color: black; margin-top: 2rem;">Роли пользователей</h2>
+        <div class="participants-grid" style="margin-top: 1rem;">
+            <div class="participant-card">
+                <div class="participant-name">Студент</div>
+                <ul style="text-align: left; margin-top: 0.5rem; padding-left: 1.2rem;">
+                    <li>Регистрация по телефону</li>
+                    <li>Загрузка зачётки</li>
+                    <li>Поиск преподавателей своей кафедры</li>
+                    <li>Отправка заявок</li>
+                    <li>Чат после принятия заявки</li>
+                    <li>Публикация отзыва с фото оценки ВКР</li>
+                </ul>
+            </div>
+            <div class="participant-card">
+                <div class="participant-name">Преподаватель</div>
+                <ul style="text-align: left; margin-top: 0.5rem; padding-left: 1.2rem;">
+                    <li>Регистрация по телефону</li>
+                    <li>Загрузка выписки о работе</li>
+                    <li>Настройка кафедр и лимита студентов</li>
+                    <li>Приём/отклонение заявок</li>
+                    <li>Чат со студентом</li>
+                </ul>
+            </div>
+            <div class="participant-card">
+                <div class="participant-name">Модератор</div>
+                <ul style="text-align: left; margin-top: 0.5rem; padding-left: 1.2rem;">
+                    <li>Проверка документов при регистрации</li>
+                    <li>Модерация отзывов</li>
+                    <li>Просмотр подтверждающих фото</li>
+                    <li>Журнал действий</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ШАГИ пользования -->
+        <h2 style="color: black; margin-top: 2rem;">Основные процессы</h2>
+        <div class="info-block" style="margin: 1rem auto;">
+            <div class="info-text">
+                <h3>1. Регистрация и модерация</h3>
+                <p>Вход по номеру телефона (SMS-код), загрузка подтверждающего документа. Модератор проверяет и подтверждает аккаунт.</p>
+                <h3 style="margin-top: 1rem;">2. Поиск и отправка заявки</h3>
+                <p>Студент видит только преподавателей своей кафедры, у которых включён приём заявок. Можно отправить заявки нескольким преподавателям.</p>
+                <h3 style="margin-top: 1rem;">3. Обработка заявки</h3>
+                <p>Преподаватель получает уведомление, принимает или отклоняет заявку. При принятии создаётся <strong>match</strong> и открывается чат.</p>
+            </div>
+            <div class="info-text">
+                <h3>4. Чат и файлы</h3>
+                <p>Обмен сообщениями и файлами (PDF, DOC, ZIP до 30 МБ). История сохраняется, доступ только участникам и модератору.</p>
+                <h3 style="margin-top: 1rem;">5. Оценка ВКР и отзыв</h3>
+                <p>Студент прикрепляет фото оценки ВКР (видно только модератору), оставляет текстовый отзыв. Отзыв публикуется после модерации.</p>
+            </div>
+        </div>
+
+        <!-- РЕЙТИНГ -->
+        <h2 style="color: black; margin-top: 1rem;">Рейтинги преподавателя</h2>
+        <div class="info-block" style="margin: 1rem auto;">
+            <div class="info-text">
+                <h3>Рейтинг результатов ВКР</h3>
+                <p>Средний балл всех защит студентов преподавателя (по пятибалльной шкале). Показывается всегда, даже при одной оценке.</p>
+            </div>
+            <div class="info-text">
+                <h3>Рейтинг преподавателя студентами</h3>
+                <p>Средняя оценка из опубликованных отзывов (после модерации). Отображается вместе с количеством отзывов.</p>
+            </div>
+        </div>
+
+        <!-- БЕЗОПАСНОСТЬ -->
+        <h2 style="color: black; margin-top: 2rem;">Безопасность и модерация</h2>
+        <ul style="margin-left: 1.5rem; line-height: 1.5;">
+            <li>Доступ к подтверждающим документам (зачётка, выписка) и фото оценок ВКР — только у модератора.</li>
+            <li>Файлы чата видны только участникам и модератору.</li>
+            <li>Все критические действия (подтверждение аккаунта, публикация отзыва) журналируются.</li>
+            <li>Неактивные аккаунты (более 90 дней) получают предупреждение, через год удаляются. Опубликованные отзывы сохраняются.</li>
+        </ul>
+
+        <!-- доп требования -->
+        <h2 style="color: black; margin-top: 2rem;">Нефункциональные требования</h2>
+        <div class="info-block" style="margin: 1rem auto;">
+            <div class="info-text">
+                <p><strong>Производительность:</strong> операции без задержек при штатной нагрузке.</p>
+                <p><strong>Безопасность:</strong> ролевая модель (RBAC), все проверки на сервере.</p>
+            </div>
+            <div class="info-text">
+                <p><strong>Надёжность:</strong> сохранность истории сообщений и журналов.</p>
+                <p><strong>Поддерживаемость:</strong> бизнес-логика вынесена в отдельные модули.</p>
+            </div>
+        </div>
+        <h1>Участники проекта</h1>
+        <div class="participants-grid">
+            <div class="participant-card">
+                <div class="participant-name">Варданян Людвиг</div>
+                <div class="participant-role">Руководитель, аналитик</div>
+                <p>Сбор требований, написание технического задания, координация команды, составление отчётов.</p>
+            </div>
+            <div class="participant-card">
+                <div class="participant-name">Лебедев Александр</div>
+                <div class="participant-name">Гусев Данила</div>
+                <div class="participant-role">Техническая документация</div>
+                <p>Оформление документов, соглашений, презентаций.</p>
+            </div>
+            <div class="participant-card">
+                <div class="participant-name">Зверев Савелий</div>
+                <div class="participant-name">Мягкая Виктория</div>
+                <div class="participant-name">Суворова Мария</div>
+                <div class="participant-role">Разработчик</div>
+                <p>Вёрстка HTML/CSS, создание макетов, интеграция контента, тестирование кроссбраузерности.</p>
+            </div>
+            <div class="participant-card">
+                <div class="participant-name">Рыбакова Елена</div>
+                <div class="participant-role">Дизайнер, контент-менеджер</div>
+                <p>Разработка визуального стиля, подбор иллюстраций, написание текстов для сайта.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026, Учебный проект "Филин".</p>
+    </footer>
+</body>
+</html>
